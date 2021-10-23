@@ -19,7 +19,7 @@ import {
 import { RadioButton, RadioButtonGroup } from "material-ui/RadioButton";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8083/";
+const API_BASE = "https://appointment-scheduler-mern.herokuapp.com/";
 
 class AppointmentApp extends Component {
   constructor(props, context) {
